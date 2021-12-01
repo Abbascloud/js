@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <h1 class="logo">Flowers</h1>
+        <form action="#" class="search"> <input class="input" type="text"><button type="submit" class="searchButton">search</button></form>
+        <button class="basket" type="button">basket</button>
+        <div class="cart hidden">
+            <div class="cart__item">
+                <p class="title">title</p>
+                <p class="quantity">quantity</p>
+                <p class="price">price</p>
+                <p class="summ">summ</p>
+                <button type="button" class="clearCart__Btn">clear cart</button>
+            </div>
+
+        </div> <span class="counter">0</span>
+    </header>
+
+    <div class="cards__holder">
+
+    </div>
+
+    <nav class="slider container">
+        <div class="arrow__left__holder">
+            <img src="icons/arrow__left.svg" alt="arrowLeft" class="slider__left">
+        </div>
+        <div class="arrow__right__holder">
+            <img src="icons/arrow__right.svg" alt="arrow Right" class="slider__right">
+        </div>
+
+
+    </nav>
+
+    <form action="#" class="userInfo">
+        <input class="inputInfo" placeholder="name" name="name" type="text">
+        <p class="error" data-name="name"></p>
+        <input class="inputInfo" placeholder="phoneNumber" name="phoneNumber" type="text">
+        <p data-name="phoneNumber" class="error"></p>
+        <input class="inputInfo" placeholder="mail@email.com" name="mail" type="text">
+        <p data-name="mail" class="error"></p>
+        <button class="submitButton" type="submit">submit</button>
+    </form>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

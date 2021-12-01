@@ -1,0 +1,211 @@
+.header {
+    display: flex;
+    height: 50px;
+    margin-bottom: 100px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo {
+    align-self: center;
+}
+
+.input {
+    margin-left: 30px;
+    width: 100%;
+    outline: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.basket {
+    align-self: center;
+    margin: 0 10px 0 auto;
+    cursor: pointer;
+}
+
+.counter {
+    align-self: center;
+    border-radius: 40px;
+    background-color: gray;
+    padding: 5px 10px 5px 10px;
+}
+
+.cards__holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(226, 224, 224);
+    padding: 10px;
+}
+
+.card__title {
+    align-self: center;
+}
+
+.card__img {
+    object-fit: cover;
+    width: 50%;
+    max-height: 580px;
+    align-self: center;
+}
+
+.price {
+    align-self: flex-end;
+}
+
+.add__button {
+    align-self: flex-end;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cart {
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+    width: 30%;
+    top: 50px;
+}
+
+.cart__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.cart__item p {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.increase {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.decrease {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.delete__good {
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.quantityContainer {
+    display: flex;
+}
+
+.search {
+    width: 30%;
+    display: flex;
+}
+
+.userInfo {
+    width: 30%;
+    margin: 100px auto;
+}
+
+.submitButton {
+    float: right;
+}
+
+.redBorder {
+    border: 1px solid red;
+}
+
+.inputInfo {
+    width: 100%;
+    outline: none;
+}
+
+.greenBorder {
+    border: 1px solid green;
+}
+
+.slider {
+    box-sizing: border-box;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider__left {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    cursor: pointer;
+}
+
+.slider__right {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    right: 5px;
+    cursor: pointer;
+}
+
+.slider__item {
+    position: relative;
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.slider__item img {
+    size: inherit;
+    height: 100%;
+    display: block;
+    margin-right: auto;
+}
+
+.slider__desc {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.slider__button {
+    position: absolute;
+    top: 60px;
+    right: 12px;
+}
+
+.arrow__left__holder {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow__right__holder {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    width: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
